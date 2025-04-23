@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 2rem;
+    background-color: #000000;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+body {
+    background-color: #FAF9F6;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1rem;
+
+}
+
+.section-1 {
+    background-color: #25794c;
+    color: whitesmoke;
+}
+
+footer {
+    background-color: #201c57;
+    color: white;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #25794c;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #25794c;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: #cbcbcb;
+}
+
+select {
+    cursor: pointer;
+    background-color: #25794c;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 5rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+}
+
+tr,
+td {
+    background-color: E8E8E8;
+    color: #000000;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: black;
+    color: whitesmoke;
+}
+
+details {
+    background-color: #279345;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+summary {
+    color: white;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #279345;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #000000;
+    padding: 0 0.5rem;
+}
+
+button {
+    background-color: #29a93e;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
